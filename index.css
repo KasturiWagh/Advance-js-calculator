@@ -1,14 +1,22 @@
 body{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    background-color: #D5F3FE;
 }
 .container{
     text-align: center;
     margin-top: 5em;
+
     
 }
 
 .calculator{
     display:inline-block;
+    padding: 1rem 2rem 2rem 2rem;
+    border:none;
+    border-radius:10px;
+    background-color: #0F5298;
+   
 }
 
 table{
@@ -19,17 +27,26 @@ button{
     margin:0.5rem;
     height:3rem;
     width: 6rem;
-    background-color: rgb(200, 242, 255);
+    background-color: #D5F3FE;
     border: 0px;
     font-size: 25px;
     border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+
+#number{
+    background-color: #66D3FA;
+} 
+
+#number:hover{
+    background-color: #3C99DC;
 }
 
 input{
-    width:34rem;
+    width:43rem;
     height:2.5rem;
-    border:2px solid rgb(134, 134, 134);
+    border:none;
     font-size: 25px;
     display: block;
 }
@@ -45,5 +62,5 @@ input{
 }
 
 button:hover{
-    background-color: rgb(125, 227, 255);
+    background-color: #3C99DC;
 }
