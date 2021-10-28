@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    text-align: center;
+    margin-top: 5em;
+    
+}
+
+.calculator{
+    display:inline-block;
+}
+
+table{
+    margin-top: 1em;
+}
+
+button{
+    margin:0.5rem;
+    height:3rem;
+    width: 6rem;
+    background-color: rgb(200, 242, 255);
+    border: 0px;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+input{
+    width:34rem;
+    height:2.5rem;
+    border:2px solid rgb(134, 134, 134);
+    font-size: 25px;
+    display: block;
+}
+
+#screen{
+    border-top:0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#screen2{
+    border-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+button:hover{
+    background-color: rgb(125, 227, 255);
+}
